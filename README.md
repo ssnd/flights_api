@@ -3,7 +3,7 @@
 ## Description  
 This project creates a simple API based on a [CSV file](https://github.com/ssnd/flights_api/blob/main/initial_data.csv) with flight info using Docker, Phoenix Framework and Elixir.   
 
-The app and provides two endpoints to access the saved data:
+The app provides two endpoints to access the saved data:
  * `/api/flights` to get a list of flights in the database.
  * `/api/flights/:id` to get info about a specific flight.
 
