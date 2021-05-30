@@ -11,7 +11,7 @@ Because reading from a CSV file is slow and resource-intensive, I decided to pro
 Even though this solution may seem a little over-engineered, database pre-population is better because of the following few reasons:
  * It allows us to work with bigger initial CSV datasets.
  * Uses less time and resources than the strategy of reading the CSV file each time a request happens.
- * Is more reliable than reading the CSV file on app launch and keeping it in-memory. An app crash would mean we should read it again, while the database just keeps our data safe.
+ * It is more reliable than reading the CSV file on app launch and keeping it in-memory. An app crash would mean we should read it again, while the database just keeps our data safe.
  * It is a more scalable and production-ready solution.
 
 ## Launch with Docker
